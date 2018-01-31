@@ -1,0 +1,31 @@
+{
+  "name": "bs-ocaml-compare",
+  "version": "1.0.0",
+  "description": "[Test Project] compare module for ocaml",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -clean-world -make-world",
+    "watch": "bsb -clean-world -make-world -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentork/bs-ocaml-compare.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "ocaml"
+  ],
+  "author": "kentork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentork/bs-ocaml-compare/issues"
+  },
+  "homepage": "https://github.com/kentork/bs-ocaml-compare#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "bs-platform": "^2.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.0.0"
+  }
+}
